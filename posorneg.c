@@ -1,16 +1,9 @@
 #include<stdio.h>
 int main(){
-int num;
-printf("enter the number");
-scanf("%d",&num);
-if(num==0){
-    printf("the enterd number is zero");
+    int num,sum=0;
+printf("enter the natural number");
+for(int i=0;i<=num;i++){
+    sum+=i;
 }
-else if(num>0){
-    printf("the entered number is positve");
-}
-else{
-    printf("the enterd numbeer is negetive");
-}
-return 0;
+print("%d",sum);
 }
